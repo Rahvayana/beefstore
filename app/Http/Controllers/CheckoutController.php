@@ -108,7 +108,6 @@ class CheckoutController extends Controller
     public function transaction(Request $request,$id)
     {
 
-        dd($request);
         $hargaDaging=DB::table('beef_packages')->select('price','title')->where('id',$id)->first();
         
         $id_transaction=DB::table('transactions')->insertGetId(
