@@ -15,14 +15,14 @@
                     <div class="col-12 col-lg-3">
                         <h5>Dapat Terhubung</h5>
                         <ul class="list-unstyled">
-                            <img src="frontend/images/location logo.png" alt="featured">
+                            <img src="/frontend/images/location logo.png" alt="featured">
                             <li><a href="#">Pasar Tebet Barat Lt.1, Jl. Tebet Barat,
                                 RT.2/RW.5, Tebet Barat, Kec. Tebet, Kota
                                 Jakarta Selatan, Daerah Khusus Ibukota
                                 Jakarta 12810</a></li>
-                                <img src="frontend/images/call logo.png" alt="featured">
+                                <img src="/frontend/images/call logo.png" alt="featured">
                             <li><a href="#">0821 - 222 - 1123</a></li>
-                            <img src="frontend/images/email logo.png" alt="featured">
+                            <img src="/frontend/images/email logo.png" alt="featured">
                             <li><a href="#">H.Gufron@gmail.com</a></li>
                         </ul>
                     </div>
