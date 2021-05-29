@@ -50,7 +50,12 @@
                                 <form action="{{ route('transactions_process', $item->id) }}" method="POST">
                                     @csrf
                                     <div class="form_pesanan">
-
+                                        <div class="row">
+                                            <p style="margin-left: 15px">Nama</p>
+                                            <p style="margin-left: 120px">Alamat</p>
+                                            <p style="margin-left: 120px">Kilo</p>
+                                        </div>
+                                        <hr>
                                     </div>
                                     <button type="submit" id="transactionButton" style="visibility: hidden;">
                                         Submit
@@ -162,7 +167,7 @@
                         </a>
                     </div>
                     <div class="text-center mt-3">
-                        <a href="{{ route('detail', $item->id) }}" class="text-muted">
+                        <a href="{{ url()->previous() }}" class="text-muted">
                             Batalkan Pembayaran
                         </a>
                     </div>

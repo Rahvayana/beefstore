@@ -129,6 +129,7 @@ class CheckoutController extends Controller
                 [
                     'transaction_id' => $id_transaction,
                     'beefname' => $hargaDaging->title,
+                    'username' => $nama,
                     'address' => $request->alamat[$n],
                     'total_kilo' => array_sum($request->kilo),
                     'created_at' => date('Y-m-d H:i:s'),
